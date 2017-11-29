@@ -60,6 +60,7 @@ public class DataNasabah extends javax.swing.JFrame {
         penghasilanTmbhnTF = new javax.swing.JTextField();
         jLabel18 = new javax.swing.JLabel();
         bonusTF = new javax.swing.JTextField();
+        jLabel16 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
@@ -153,6 +154,8 @@ public class DataNasabah extends javax.swing.JFrame {
             }
         });
 
+        jLabel16.setText("@edited by JodhySiTampanMasaKini");
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -207,6 +210,10 @@ public class DataNasabah extends javax.swing.JFrame {
                                 .addComponent(jLabel18)))
                         .addGap(0, 236, Short.MAX_VALUE)))
                 .addContainerGap())
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel16)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -256,7 +263,9 @@ public class DataNasabah extends javax.swing.JFrame {
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(18, 18, 18)
                         .addComponent(dataNasabahBTN)))
-                .addContainerGap(8, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 23, Short.MAX_VALUE)
+                .addComponent(jLabel16)
+                .addContainerGap())
         );
 
         tabPengajuan.addTab("Data Nasabah", jPanel2);
@@ -625,6 +634,7 @@ public class DataNasabah extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
